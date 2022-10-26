@@ -6,7 +6,7 @@
 /*   By: suchua <suchua@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 15:50:30 by suchua            #+#    #+#             */
-/*   Updated: 2022/10/20 20:02:23 by suchua           ###   ########.fr       */
+/*   Updated: 2022/10/26 21:32:18 by suchua           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,12 @@ int	main(void)
 		line = get_next_line(fd1);
 		printf("line [%02d]: %s", i, line);
 		free(line);
-		// line = get_next_line(fd2);
-		// printf("line [%02d]: %s\n", i, line);
-		// free(line);
-		// line = get_next_line(fd3);
-		// printf("line [%02d]: %s\n", i, line);
-		// free(line);
+		line = get_next_line(fd2);
+		printf("line [%02d]: %s\n", i, line);
+		free(line);
+		line = get_next_line(fd3);
+		printf("line [%02d]: %s\n", i, line);
+		free(line);
 		i++;
 	}
 	close(fd1);
