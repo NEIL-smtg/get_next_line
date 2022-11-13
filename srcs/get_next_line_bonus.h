@@ -22,7 +22,7 @@
 # endif
 
 # ifndef FILE_D_SIZE
-#  define FILE_D_SIZE 4864
+#  define FILE_D_SIZE 8192
 # endif
 
 char	*get_next_line(int fd);
