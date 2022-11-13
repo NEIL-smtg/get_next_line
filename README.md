@@ -54,7 +54,7 @@ get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
 ## 📋 Testing
 
 You can edit any of the text files or the main.c for further testing.
-If you are not specifying the BUFFER_SIZE in your terminal, the default value of BUFFER_SIZE will be set as 10.\n
+If you are not specifying the BUFFER_SIZE in your terminal, the default value of BUFFER_SIZE will be set as 10.
 If you tempt to change the value of BUFFER_SIZE, simply run this command (change "xx" with desired buffer size, e.g. BUFFER_SIZE=9999) :
 
 ```shell
