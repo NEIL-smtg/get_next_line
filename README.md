@@ -61,6 +61,8 @@ Then simply run this command (change "xx" with desired buffer size) :
 gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c && ./a.out
 ```
 
+If you are not specifying the BUFFER_SIZE in your terminal, the default value of BUFFER_SIZE will be set as 10.
+
 Or you can also use this third party tester to fully test the project
 
 * [Tripouille/gnlTester](https://github.com/Tripouille/gnlTester)
